@@ -19,7 +19,7 @@ else if (forcaHeroi >= 7001 && forcaHeroi <= 8000){
 else if (forcaHeroi >= 8001 && forcaHeroi <= 9000){
     nivel = "Ascendente";
 }
-else if (forcaHeroi >= 9001 && forcaHeroi <= 9000){
+else if (forcaHeroi >= 9001 && forcaHeroi <= 10000){
     nivel = "Ascendente";
 }
 else if (forcaHeroi >= 10001){
