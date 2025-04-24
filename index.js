@@ -1,6 +1,5 @@
 let heroi = "FLOYD";
-let forcaHeroi = 8915;
-let nivel = "";
+let forcaHeroi = 5687;
 
 if (forcaHeroi < 1000){
     nivel = "Ferro";
@@ -20,11 +19,11 @@ else if (forcaHeroi >= 7001 && forcaHeroi <= 8000){
 else if (forcaHeroi >= 8001 && forcaHeroi <= 9000){
     nivel = "Ascendente";
 }
-else if (forcaHeroi >= 9001 && forcaHeroi <= 10000){
-    nivel = "Imortal";
+else if (forcaHeroi >= 9001 && forcaHeroi <= 9000){
+    nivel = "Ascendente";
 }
 else if (forcaHeroi >= 10001){
     nivel = "Radiante";
 }
 
-console.log ("O Herói de nome " + heroi + " está no nível de " + nivel)
+console.log ("O herói de nome " + heroi + " está no nível " + nivel)
